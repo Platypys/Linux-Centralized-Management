@@ -1,3 +1,8 @@
 # Linux-keskitetty-hallinta
-Harjoitustöille
+## Harjoitustöille
 Now in English!
+
+Some example code:
+	print("Hello world")
+
+
