@@ -2,9 +2,9 @@
 Install and configure a service using Puppet Package-File-Service
 
 ### Environment
-Oracle Virtualbox instance: Xubuntu 16.04 | 1GB RAM | 8GB  HDD
+**Oracle Virtualbox instance:** Xubuntu 16.04 | 1GB RAM | 8GB  HDD
 
-Host: Windows 10 x64 | 6GB RAM | i5345 CPU @3.10GHz
+**Host:** Windows 10 x64 | 6GB RAM | i5345 CPU @3.10GHz
 
 ### Prep:
     $sudo apt-get update
@@ -68,6 +68,10 @@ We might need to run the puppet couple times for it to work correctly, because i
 
 
 I ran the command three times, but it seems that it made changes only on the first try. **Note** the line "ensure changed 'purged' to 'present'. Maybe there were traces of my previous apache installation left? Should have made sure it was completely gone...
+
+Here we have the index page for localhost:
+
+![alt-text](https://github.com/Platypys/Linux-Centralized-Management/blob/master/H2/Img/localhost.PNG "Browser")
 
 ### Sources
 Package delete http://askubuntu.com/questions/1143/how-can-i-uninstall-software
