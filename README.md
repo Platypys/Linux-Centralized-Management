@@ -1,8 +1,6 @@
 # Linux Centralized Management-course
-## Assignemts
-Now in English!
+## Git-Hub page for Course Assignments
 
-Some example code:
-	print("Hello world")
+### By Joonas Lappalainen
 
 
