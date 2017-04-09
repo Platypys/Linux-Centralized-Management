@@ -1,5 +1,5 @@
-# Linux-keskitetty-hallinta
-## Harjoitustöille
+# Linux Centralized Management-course
+## Assignemts
 Now in English!
 
 Some example code:
