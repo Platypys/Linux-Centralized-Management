@@ -50,6 +50,22 @@ We might need to run the puppet couple times for it to work correctly, because i
     $sudo puppet apply -e 'class {"apachecreate":}'
 
 #### Result
+
+	$joonas@Miku:/etc/puppet/modules/apachecreate/manifests$ sudo puppet apply -e 'class {"apachecreate":}'
+	[sudo] password for joonas: 
+	Notice: Compiled catalog for miku.elisa-laajakaista.fi in environment production in 0.74 seconds
+	Notice: /Stage[main]/Apachecreate/Package[apache2]/ensure: ensure changed 'purged' to 'present'
+	Notice: /Stage[main]/Apachecreate/File[/var/www/html/index.html]/content: content changed '{md5}9ad421244b28db9cb4a6857edd297ef5' to '{md5}8f37b383ee80e28ec5abd439b117fab3'
+	Notice: /Stage[main]/Apachecreate/Service[apache2]: Triggered 'refresh' from 1 events
+	Notice: Finished catalog run in 19.03 seconds
+	$joonas@Miku:/etc/puppet/modules/apachecreate/manifests$ sudo puppet apply -e 'class {"apachecreate":}'
+	Notice: Compiled catalog for miku.elisa-laajakaista.fi in environment production in 0.79 seconds
+	Notice: Finished catalog run in 0.06 seconds
+	$joonas@Miku:/etc/puppet/modules/apachecreate/manifests$ sudo puppet apply -e 'class {"apachecreate":}'
+	Notice: Compiled catalog for miku.elisa-laajakaista.fi in environment production in 0.44 seconds
+	Notice: Finished catalog run in 0.08 seconds
+
+
 I ran the command three times, but it seems that it made changes only on the first try. Note the line "ensure changed 'purged' to 'present'. Maybe there were traces of my previous apache installation left? Should have made sure it was completely gone...
 
 ### Sources
