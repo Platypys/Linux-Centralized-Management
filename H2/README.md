@@ -66,8 +66,15 @@ We might need to run the puppet couple times for it to work correctly, because i
 	Notice: Finished catalog run in 0.08 seconds
 
 
-I ran the command three times, but it seems that it made changes only on the first try. Note the line "ensure changed 'purged' to 'present'. Maybe there were traces of my previous apache installation left? Should have made sure it was completely gone...
+I ran the command three times, but it seems that it made changes only on the first try. **Note** the line "ensure changed 'purged' to 'present'. Maybe there were traces of my previous apache installation left? Should have made sure it was completely gone...
 
 ### Sources
 Package delete http://askubuntu.com/questions/1143/how-can-i-uninstall-software
+
 Restarting using puppet https://www.puppetcookbook.com/posts/restart-a-service-when-a-file-changes.html
+
+Puppet language https://docs.puppet.com/puppet/latest/lang_relationships.html#packagefileservice
+
+Course site http://terokarvinen.com/2017/aikataulu-%E2%80%93-linuxin-keskitetty-hallinta-%E2%80%93-ict4tn011-11-%E2%80%93-loppukevat-2017-p2
+
+My Blog https://joonaslappalainen.wordpress.com/
