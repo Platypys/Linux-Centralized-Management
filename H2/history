@@ -1,0 +1,12 @@
+  
+39  sudo apt-get purge apache2
+40  cd /etc/puppet/modules/
+41  sudo mkdir apachecreate/manifests
+42  sudo mkdir -p apachecreate/manifests
+43  cd apachecreate/manifests/
+44  sudo nano init.pp
+45  ls
+46  cat init.pp 
+47  sudo puppet apply -e 'class {"apache":}'
+48  sudo puppet apply -e 'class {"apachecreate":}'
+
