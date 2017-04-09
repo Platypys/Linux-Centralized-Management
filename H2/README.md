@@ -83,3 +83,5 @@ Puppet language https://docs.puppet.com/puppet/latest/lang_relationships.html#pa
 Course site http://terokarvinen.com/2017/aikataulu-%E2%80%93-linuxin-keskitetty-hallinta-%E2%80%93-ict4tn011-11-%E2%80%93-loppukevat-2017-p2
 
 My Blog https://joonaslappalainen.wordpress.com/
+
+Markdowns https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines
