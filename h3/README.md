@@ -53,7 +53,7 @@ Created a template in the Apache2 module template directory.
 Module needs to install apache2, create a public_html directory for the user, create a index.html file to that directory and use the available template to replace the existing default page.
 
 ```
-class apacheconf {
+class apache {
 	package{'apache2':
 		ensure => 'installed',
 	}
