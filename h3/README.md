@@ -98,6 +98,8 @@ class apache {
 	}
 }
 ```
+	 
+	sudo puppet apply -e 'class '{'apache':}'
 
 ### References
 
