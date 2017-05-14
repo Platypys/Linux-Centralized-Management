@@ -58,8 +58,12 @@ Last part is to remove mouspad text editor. Here is the removal part of the mani
 		ensure => 'absent',
 	}
  
-### Results
+### Results and problems
 Interestingly while manually modifying defaults.list file to set HTML to use gedit worked, using the puppet template did not. Plain text files are now opened in gedit. While the original goal was not achieved, the module installs gedit and plugins and makes it so `.txt` files are opened in gedit instead of mousepad.
+
+Initially I accidentally edited the defaults.list symlink located at */usr/share/applications/*. This worked, but obviously I shouldn't edit a symlink but the original file. I reverted my VM to a previous state jsut to make sure nothing got broken.
+
+The file used as a template for the module is a copy of my manually edited defaults.list file, but it is the symlink, not the original.
 
 ### Sources
 http://installion.co.uk/ubuntu/precise/universe/m/mousepad/uninstall/index.html
