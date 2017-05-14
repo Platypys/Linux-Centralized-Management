@@ -26,7 +26,7 @@ Now to do the same with Puppet!
 ### Writing the Puppet Module
 
 #### Manifest
-This is my process for creating the manifest init.pp for my Gedit puppet module step by step. It is located in */etx/puppet/modules/gedit/manifests*.
+This is my process for creating the manifest init.pp for my Gedit puppet module step by step. It is located in */etc/puppet/modules/gedit/manifests*.
 
 ##### Package
 First I wrote the package installation part of the module to install gedit and gedit-plugins:
@@ -38,10 +38,14 @@ It worked just fine, note that gedit and its plugins have been installed on this
 ![alt-text](https://github.com/Platypys/Linux-Centralized-Management/blob/master/Own%20Puppet%20Module/img/package.PNG "Packages")
 
 ##### File
-Then on to the file part, I need to change the contents of the defaults.list file at `text/html=`. Normally it is `text/html=firefox.desktop` and I need it to be `text/html=gedit.desktop`.
+Then on to the file part, I need to change the contents of the defaults.list file at `text/html=`. Normally it is `text/html=firefox.desktop` and I need it to be `text/html=gedit.desktop`. I will be using a template to do that. Here is the template:
+
+       
 
 #### Template
-This is the template for defaults.list
+This is the template for defaults.list. I have a version of the defaults.list file in my Documents folder that I want to use as my template (has gedit set as default for `.HTML`). I copy that over to my templates directory at */etc/puppet/modules/gedit/templates*.
+
+
 
 ### Sources
 http://installion.co.uk/ubuntu/precise/universe/m/mousepad/uninstall/index.html
