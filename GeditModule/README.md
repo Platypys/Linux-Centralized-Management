@@ -59,9 +59,11 @@ Last part is to remove mouspad text editor. Here is the removal part of the mani
 	}
  
 ### Results
-Interestingly while manually modifying defaults.list file to set HTML to use gedit worked, using the puppet template did not. Plain text files are now opened in gedit. While the original goal was not achieved, the module installs gedit and plugins and makes it so `.txt` files are opened in gedit isntead of mousepad.
+Interestingly while manually modifying defaults.list file to set HTML to use gedit worked, using the puppet template did not. Plain text files are now opened in gedit. While the original goal was not achieved, the module installs gedit and plugins and makes it so `.txt` files are opened in gedit instead of mousepad.
 
 ### Sources
 http://installion.co.uk/ubuntu/precise/universe/m/mousepad/uninstall/index.html
 https://askubuntu.com/questions/13447/how-do-i-change-the-default-text-editor
 https://www.puppetcookbook.com/posts/remove-package.html
+https://docs.puppet.com/puppet/latest/lang_template.html
+http://terokarvinen.com/2017/aikataulu-%E2%80%93-linuxin-keskitetty-hallinta-%E2%80%93-ict4tn011-11-%E2%80%93-loppukevat-2017-p2
