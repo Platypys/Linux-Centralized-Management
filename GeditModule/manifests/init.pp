@@ -11,4 +11,9 @@ class gedit {
 		ensure => file,
 		content => template('gedit/defaults.list'),
 	}
+	
+	package { 'mousepad':
+		ensure => 'absent',
+	}
+
 }
