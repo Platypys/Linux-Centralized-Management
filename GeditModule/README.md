@@ -31,14 +31,15 @@ This is my process for creating the manifest init.pp for my Gedit puppet module 
 ##### Package install
 First I wrote the package installation part of the module to install gedit and gedit-plugins:
         
+    
     class gedit {
-	package { 'gedit':
-		ensure => 'installed',
-	}
+		package { 'gedit':
+			ensure => 'installed',
+		}
 
-	package { 'gedit-plugins':
+		package { 'gedit-plugins':
 		ensure => 'installed',
-	}
+		}
 
 It worked just fine, note that gedit and its plugins have been installed on this machine so it doesnt actually install them, but verifies that they are installed). Here are the results:
 
