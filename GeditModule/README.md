@@ -68,7 +68,11 @@ The file used as a template for the module is a copy of my manually edited defau
 
 ### Sources
 http://installion.co.uk/ubuntu/precise/universe/m/mousepad/uninstall/index.html
+
 https://askubuntu.com/questions/13447/how-do-i-change-the-default-text-editor
+
 https://www.puppetcookbook.com/posts/remove-package.html
+
 https://docs.puppet.com/puppet/latest/lang_template.html
+
 http://terokarvinen.com/2017/aikataulu-%E2%80%93-linuxin-keskitetty-hallinta-%E2%80%93-ict4tn011-11-%E2%80%93-loppukevat-2017-p2
