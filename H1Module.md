@@ -2,3 +2,5 @@ Tehtävänanto: http://terokarvinen.com/2017/aikataulu-%E2%80%93-linuxin-keskite
 
 h1. a) Puppet-moduli, joka käyttää vähintään kahta eri resurssia (esim. package ja file).
 
+https://joonaslappalainen.wordpress.com/2017/04/02/puppet-modulit/
+
